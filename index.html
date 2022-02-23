@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Churrascometro</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./imagens/ico.png" type="image/png">
+  <link rel="icon" href="./imagens/icons8-carré-de-cordeiro-100.png">
+</head>
+
+<body>
+  <header class="titulo">
+    <h1>CALCULE SEU CHURRASCO</h1>
+  </header>
+  <main class="container">
+    <h1 class="h">Churrascômetro</h1>
+    <input id="adultos" type="number" name="adultos" placeholder="Adultos">
+    <input id="criancas" type="number" name="criancas" placeholder="Crianças">
+    <input id="duracao" type="number" name="duracao" placeholder="Duração(h)">
+    <button class="btn" onclick="calcular()" onmouseover="onOver(this)" onmouseout="onOut(this)">
+      Calcular</button>
+    <div id="resultado" style="color: white;">
+
+    </div>
+  </main>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
